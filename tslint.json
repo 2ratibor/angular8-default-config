@@ -2,7 +2,7 @@
 	"rulesDirectory": [
 		"node_modules/codelyzer"
 	],
-//	"extends": ["tslint-plugin-prettier", "tslint-config-prettier"],
+	"extends": ["tslint-plugin-prettier", "tslint-config-prettier"],
 	"rules": {
 		"arrow-return-shorthand": true,
 		"callable-types": true,
@@ -135,6 +135,5 @@
 		"component-class-suffix": true,
 		"directive-class-suffix": true,
 		"prettier": true
-	},
-	"extends": ["tslint:latest", "tslint-config-prettier"]
+	}
 }
