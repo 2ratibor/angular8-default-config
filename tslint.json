@@ -1,8 +1,9 @@
 {
 	"rulesDirectory": [
-		"node_modules/codelyzer"
+		"node_modules/codelyzer",
+		"tslint-plugin-prettier",
+		"tslint-config-prettier"
 	],
-	"extends": ["tslint:latest", "tslint-plugin-prettier", "tslint-config-prettier"],
 	"rules": {
 		"arrow-return-shorthand": true,
 		"callable-types": true,
